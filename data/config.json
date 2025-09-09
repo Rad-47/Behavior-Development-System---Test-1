@@ -1,0 +1,8 @@
+{
+  "SPIKY_API_URL": "https://api.spiky.ai",
+  "SPIKY_EMAIL": "Rad@freefuse.info",
+  "SPIKY_USERNAME": "Rad@freefuse.info",
+  "SPIKY_PASSWORD": "Ridu@agent47",
+  "INTEGRATION_NAME": "MANUALTIMELINE",
+  "POLL_SECS": 30
+}

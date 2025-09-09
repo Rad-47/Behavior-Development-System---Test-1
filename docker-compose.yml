@@ -1,0 +1,26 @@
+
+version: "3.9"
+services:
+  scorer:
+    build: ./bcat-scorer
+    container_name: bcat_scorer
+    ports: ["8080:8080"]
+    restart: unless-stopped
+    networks: [bcat]
+  worker:
+    build: ./worker
+    container_name: bcat_worker
+    environment:
+      - SCORER_URL=http://scorer:8080/score
+      - IN_DIR=/data/in
+      - OUT_DIR=/data/out
+      - CONF=/data/config.json
+      - MAPF=/data/patterns-map.json
+    volumes:
+      - ./data:/data
+    ports: ["8090:8090"]
+    depends_on: [scorer]
+    restart: unless-stopped
+    networks: [bcat]
+networks:
+  bcat: {}

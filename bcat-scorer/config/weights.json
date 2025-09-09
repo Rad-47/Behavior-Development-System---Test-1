@@ -1,0 +1,62 @@
+{
+  "objectivity": {
+    "Precision": 0.7,
+    "Resolve": 0.1,
+    "Innovation": 0.1,
+    "Harmony": 0.1
+  },
+  "clarity_conciseness": {
+    "Precision": 0.65,
+    "Resolve": 0.1,
+    "Innovation": 0.1,
+    "Harmony": 0.15
+  },
+  "energy": {
+    "Precision": 0.05,
+    "Resolve": 0.75,
+    "Innovation": 0.15,
+    "Harmony": 0.05
+  },
+  "decision_orientation": {
+    "Precision": 0.1,
+    "Resolve": 0.75,
+    "Innovation": 0.1,
+    "Harmony": 0.05
+  },
+  "followup_questions": {
+    "Precision": 0.05,
+    "Resolve": 0.1,
+    "Innovation": 0.7,
+    "Harmony": 0.15
+  },
+  "novelty_ideation": {
+    "Precision": 0.05,
+    "Resolve": 0.1,
+    "Innovation": 0.75,
+    "Harmony": 0.1
+  },
+  "attention_listening": {
+    "Precision": 0.1,
+    "Resolve": 0.1,
+    "Innovation": 0.1,
+    "Harmony": 0.7
+  },
+  "talk_balance": {
+    "Precision": 0.1,
+    "Resolve": 0.15,
+    "Innovation": 0.1,
+    "Harmony": 0.65
+  },
+  "patience": {
+    "Precision": 0.05,
+    "Resolve": 0.1,
+    "Innovation": 0.1,
+    "Harmony": 0.75
+  },
+  "positivity_tone": {
+    "Precision": 0.15,
+    "Resolve": 0.15,
+    "Innovation": 0.1,
+    "Harmony": 0.6
+  }
+}
